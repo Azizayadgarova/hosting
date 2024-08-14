@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: rgba(39, 44, 61, 1);
+}
+
+.navbar_menyu {
+    display: flex;
+    gap: 25.46px;
+    align-items: center;
+    margin-left: 25.46px;
+}
+
+.navbar_menyu>li>a {
+    font-family: Quantico;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar_menyu>li {
+    list-style: none;
+}
+
+.navbar_left_part {
+    display: flex;
+}
+
+.input {
+    width: 241px;
+    height: 28px;
+    background: rgba(64, 72, 100, 1);
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar_right_part {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.select1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 165px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    font-family: Quantico;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    text-align: left;
+    border: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.select1 {
+    margin-right: 37px;
+}
+
+.blok:hover {
+    color: orange;
+}
+
+section {
+    background-image: url('./assets/img.pnj/Bg.png');
+    background-size: cover;
+    height: 680px;
+}
+
+.main_section_div1 {
+    background-color: rgba(0, 0, 0, 1);
+    height: 399px;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.box_1>h1 {
+    font-family: Quantico;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45.76px;
+    text-align: left;
+    color: white;
+}
+
+.box_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_section_div2 {
+    width: 1189px;
+    height: 928px;
+    background-color: rgba(27, 30, 39, 1);
+    margin: 0px auto;
+}
+
+.container_box {
+    display: flex;
+}
+
+.container1>h2 {
+    font-family: Quantico;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.32px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    padding-top: 61px;
+    margin-left: 245px;
+    align-items: center;
+}
+
+.container2>h2 {
+    font-family: Quantico;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.32px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    margin-left: 245px;
+    align-items: center;
+}
+
+.container2 {
+    margin-bottom: 128px;
+}
+
+.boxs1 {
+    font-family: Quantico;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    text-align: left;
+    color: rgba(191, 191, 191, 1);
+    width: 323px;
+    height: 234px;
+    margin-top: 30px;
+}
+
+.boxs2 {
+    margin: 30px 17px 142px 245px;
+}
+
+.n {
+    margin-top: 10px;
+}
+
+.foter_div {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    background-color: rgba(39, 44, 61, 1);
+    justify-content: space-between;
+}
+
+.foter_left {
+    padding-left: 47px;
+}
+
+.fotre_right {
+    padding-right: 47px;
+}
+
+ol ul {
+    margin-bottom: 0rem;
+}
